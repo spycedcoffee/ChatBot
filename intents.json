@@ -1,0 +1,96 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hello",
+                "hey",
+                "hi",
+                "good day",
+                "greetings",
+                "what's up?",
+                "how is it going?"
+            ],
+            "responses": [
+                "Hello",
+                "Hey there!",
+                "What can I do for you?",
+                "Greetings to you too!",
+                "Hey!"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "cya",
+                "see you later",
+                "Goodbye",
+                "I am leaving",
+                "Okay, thanks!",
+                "Have a good day!",
+                "Bye!",
+                "Sayonara",
+                "Ciao"
+            ],
+            "responses": [
+                "Hope to see you again!",
+                "Happy to help!",
+                "Goodbye",
+                "Have a good day :)"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old",
+                "what is your age?",
+                "how old are you?",
+                "age?"
+            ],
+            "responses": [
+                "My owner Lexxi is 21 yrs old!",
+                "21 years!",
+                "This business is 1.5 yrs old!"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name?",
+                "what should I call you?",
+                "Who are you?",
+                "What's your name?",
+                "Tell me your name"
+            ],
+            "responses": [
+                "I'm Miku!",
+                "The name's Miku",
+                "You can call me miku!",
+                "I'm miku, nice to meet you!"
+            ]
+        },
+        {
+            "tag": "shop",
+            "patterns": [
+                "I'd like to buy something",
+                "What are your products?",
+                "What do you recommend?",
+                "what are you selling?"
+            ],
+            "responses": [
+                "At Cherry Blossom you can find all kinds of stationary items and we have recently started our very own line of jewellery. We also offer custom made products!"
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "when are you guys open?",
+                "what are your hours?",
+                "hours of operation"
+            ],
+            "responses": [
+                "24/7 "
+            ]
+        }
+    ]
+}
